@@ -4,4 +4,18 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "google>=3.0.0",
+    "google-generativeai>=0.8.6",
+    "langchain>=1.2.6",
+    "langchain-community>=0.4.1",
+    "langchain-core>=1.2.7",
+    "langchain-gemini>=0.1.1",
+    "langchain-google-genai>=4.2.0",
+    "langchain-google-vertexai>=3.2.1",
+    "langchain-nvidia-ai-endpoints>=1.0.2",
+    "langchain-xai>=1.2.1",
+    "openai>=2.15.0",
+    "python-dotenv>=1.2.1",
+    "wikipedia>=1.4.0",
+]
